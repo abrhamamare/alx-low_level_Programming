@@ -1,5 +1,6 @@
 /**
- * print_hello - Prints "Hello"
+ * main - Prints "\"programming is like building a multilingual puzzle"
+ * Return: 0
  */
 #include<stdio.h>
 int main(void)
