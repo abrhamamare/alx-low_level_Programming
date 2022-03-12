@@ -9,14 +9,15 @@ int main(void)
 {
 	int i;
 
-	i=48;
-	do
-	{
+	i = 48;
+	do{
 	putchar((char)i);
+	if (i < 57){
 	putchar(',');
 	putchar(' ');
+	}
 	i++;
-	}while(i <= 57);
+	} while (i <= 57);
 	putchar('\n');
 	return (0);
 }
