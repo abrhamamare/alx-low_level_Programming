@@ -10,9 +10,10 @@ int main(void)
 	int i;
 
 	i = 48;
-	do{
+	do {
 	putchar((char)i);
-	if (i < 57){
+	if (i < 57)
+	{
 	putchar(',');
 	putchar(' ');
 	}
