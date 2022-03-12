@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase
+ * main - a function that prints the alphabet, in lowercase
  *
  * Return: Always 0 (Succes)
  */
@@ -13,8 +13,8 @@ int main(void)
 	scanf("%[^\n]", s);
 	while (s[i] != '\0')
 	{
-
-	if (s[i] >= 'A' && s[i] <= 'Z') s[i] += 32;
+	if (s[i] >= 'A' && s[i] <= 'Z')
+	s[i] += 32;
 	i++;
 	}
 	puts(s);
