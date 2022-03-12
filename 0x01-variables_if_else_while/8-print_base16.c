@@ -11,8 +11,8 @@ int main(void)
 	int i;
 
 	for (i = 48; i <= 57; i++)
-        putchar((char)i);
-        for (j = 'a'; j <= 'f'; j++)
+	putchar((char)i);
+	for (j = 'a'; j <= 'f'; j++)
 	putchar(j);
 	putchar('\n');
 	return (0);
