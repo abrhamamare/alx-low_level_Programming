@@ -2,8 +2,8 @@
  * main - just
  * Return: 0
  */
-#include < stdio.h >
-#include <ctype.h >
+#include <stdio.h>
+#include <ctype.h>
 int main(void)
 {
 char s[]="Abrham Getachew";
