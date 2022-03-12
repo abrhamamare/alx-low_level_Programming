@@ -8,8 +8,6 @@
 int main()
 {
 	char s[100];
-	int i=0;
-	printf("Enter a string: ");
 	scanf("%[^\n]",s);
 	while (s[i]!='\0')
 	{
