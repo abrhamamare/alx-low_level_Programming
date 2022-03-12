@@ -1,6 +1,6 @@
 /**
  * main - display size of
- * RETURN: 0
+ * Return: 0
  */
 #include<stdio.h>
 int main(void)
