@@ -2,9 +2,9 @@
  * main - print putchar
  * Return: 0
  */
-#include<stdio.h>
+#include<unistd.h>
 int main(void){
-	printf("_putchar");
+_putchar("_putchar");
 	return (0);
 }
 
