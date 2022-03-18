@@ -1,20 +1,23 @@
 #include "main.h"
+
 /**
-*more_numbers - entry point
-*Description: prints the numbers with _putchar
-*Return: void
-*/
+ * more_numbers -  checks for checks for a digit (0 through 9).
+ * Return: Always 0.
+ */
 void more_numbers(void)
 {
-int number, units, row;
+	int a, b;
 
-for(row = 1; row <= 10 ; row++)
-{
-tens = number / 10;
-units = number % 10;
-if(number>9)
-_putchar(tens + '0');
-_putchar(units + '0');
+	for (a = 0; a < 10; a++)
+	{
+		for (b = 0; b < 15; b++)
+		{
+			if (b / 10 != 0)
+			{
+				_putchar(b / 10 + '0');
+			}
+			_putchar(b % 10 + '0');
+		}
+		_putchar('\n');
+	}
 }
-_putchar('\n');
-}}
