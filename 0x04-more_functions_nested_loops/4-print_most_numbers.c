@@ -1,17 +1,23 @@
-#include "main.h"
-/**
- * prnt_most_numbers - function print
- * Descritpiton -print every number
- * Return: o
- */
-int print_most_numbers(void)
-{
-	int i;
+#include "holberton.h"
 
-for(i = 0; i <= 9 ;i++){
-if(i == 2 || i == 9)
-	continue;
-_putchar(i);
-}
-_putchar('\n');
+/**
+ * print_most_numbers -  checks for checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
+ */
+void print_most_numbers(void)
+{
+	int a;
+
+	for (a = 48; a < 58; a++)
+	{
+		if (a != 50)
+		{
+			if (a != 52)
+			{
+			_putchar(a);
+			}
+		}
+	}
+	_putchar('\n');
 }
