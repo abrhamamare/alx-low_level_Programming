@@ -13,6 +13,7 @@ int main(void)
 {
 	int i;
 	float a, b, r;
+	
 	a = 1;
 	b = 2;
 	r= 0;
