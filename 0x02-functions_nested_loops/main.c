@@ -1,22 +1,20 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_times_table(int n);
+void print_to_98(int n);
+void print_times_table(int n);
 
-	_putchar(72);
-	_putchar(111);
-	_putchar(108);
-	_putchar(98);
-	_putchar(101);
-	_putchar(114);
-	_putchar(116);
-	_putchar(111);
-	_putchar(110);
-	_putchar ('\n');
-	return (0);
-}
+
+#endif
